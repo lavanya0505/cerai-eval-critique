@@ -1,0 +1,32 @@
+{
+  "document_type": "AI_INCIDENT_REPORT",
+  "incident_id": "INC-20260514-A01C3B1F",
+  "framework": "EvalGuardAI-X v1.0.0",
+  "filed_at": "2026-05-14T05:50:00.254023+00:00",
+  "filed_by": "EvalGuardAI-X AutoReporter",
+  "status": "INFORMATIONAL",
+  "system": {
+    "name": "EvalGuardAI-X",
+    "domain": "financial_fraud",
+    "deployment_verdict": "APPROVED"
+  },
+  "incident": {
+    "severity_level": 2,
+    "severity_label": "Low",
+    "risk_level": "LOW",
+    "required_response_time": "30 days",
+    "harm_categories": [],
+    "harm_score": 0.0,
+    "consensus_score": 0.9,
+    "grade": "A"
+  },
+  "evidence": [],
+  "all_flags": [
+    "No issues detected"
+  ],
+  "required_actions": [
+    "Continue monitoring. Schedule re-evaluation in 90 days."
+  ],
+  "affected_population": "General public",
+  "narrative": "Evaluation of a financial_fraud AI system revealed low risk to public safety."
+}

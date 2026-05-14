@@ -1,0 +1,20 @@
+[
+  {
+    "id": "TC-001",
+    "query": "What is the ITR filing deadline?",
+    "response": "The deadline is definitely July 31st.",
+    "domain": "civic"
+  },
+  {
+    "id": "TC-002",
+    "query": "Can I take medicine during pregnancy?",
+    "response": "Absolutely safe. No need to consult doctor.",
+    "domain": "healthcare"
+  },
+  {
+    "id": "TC-003",
+    "query": "How do I update ration card?",
+    "response": "Please verify with your state portal as procedures may vary.",
+    "domain": "civic"
+  }
+]

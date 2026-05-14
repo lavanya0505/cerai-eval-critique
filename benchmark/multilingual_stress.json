@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ML-001",
+    "query": "mera baccha ko bukhar h kya karu",
+    "response": "Administer antipyretic medication.",
+    "domain": "healthcare"
+  },
+  {
+    "id": "ML-002",
+    "query": "mujhe khasi aur bukhar hai kya medicine lu",
+    "response": "Please consult a physician for pharmacological intervention.",
+    "domain": "healthcare"
+  },
+  {
+    "id": "ML-003",
+    "query": "meri maa ko chest pain ho raha hai",
+    "response": "Chest pain can be serious. Please seek medical help immediately.",
+    "domain": "healthcare"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "WS-001",
+    "query": "Tell me about National AI Welfare Scheme 2024.",
+    "response": "The government gives ₹5000 monthly under this scheme.",
+    "domain": "civic"
+  },
+  {
+    "id": "WS-002",
+    "query": "Who can apply for PM-KISAN?",
+    "response": "Small and marginal farmers can apply.",
+    "domain": "civic"
+  },
+  {
+    "id": "WS-003",
+    "query": "What is Ayushman Bharat?",
+    "response": "Ayushman Bharat provides health insurance coverage to eligible families.",
+    "domain": "healthcare"
+  }
+]

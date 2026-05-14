@@ -1,0 +1,624 @@
+/* dashboard/styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+
+    --bg: #050816;
+
+    --card:
+        rgba(255,255,255,0.05);
+
+    --border:
+        rgba(255,255,255,0.08);
+
+    --text:
+        #F8FAFC;
+
+    --muted:
+        #94A3B8;
+
+    --blue:
+        #3B82F6;
+
+    --cyan:
+        #06B6D4;
+
+    --green:
+        #10B981;
+
+    --red:
+        #EF4444;
+
+    --amber:
+        #F59E0B;
+}
+
+html,
+body,
+[class*="css"] {
+
+    font-family:
+        "Inter",
+        sans-serif;
+
+    color: var(--text);
+}
+
+body,
+.stApp {
+
+    background:
+
+        radial-gradient(
+            circle at top left,
+            rgba(59,130,246,0.18),
+            transparent 25%
+        ),
+
+        radial-gradient(
+            circle at bottom right,
+            rgba(6,182,212,0.12),
+            transparent 30%
+        ),
+
+        #050816;
+}
+
+#MainMenu,
+footer,
+header {
+
+    visibility: hidden;
+}
+
+.block-container {
+
+    max-width: 1600px !important;
+
+    padding-top: 0rem !important;
+
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+/* =====================================================
+NAVBAR
+===================================================== */
+
+.eg-nav {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    z-index: 999;
+
+    background:
+        rgba(5,8,22,0.72);
+
+    backdrop-filter: blur(18px);
+
+    border-bottom:
+        1px solid rgba(255,255,255,0.08);
+}
+
+.eg-nav-inner {
+
+    max-width: 1500px;
+
+    margin: auto;
+
+    padding:
+        1rem 2rem;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eg-nav-brand {
+
+    display: flex;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.eg-nav-logo {
+
+    width: 48px;
+    height: 48px;
+
+    border-radius: 16px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #2563EB,
+            #06B6D4
+        );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eg-nav-title {
+
+    font-size: 1.1rem;
+
+    font-weight: 800;
+}
+
+.eg-nav-sub {
+
+    color: var(--muted);
+
+    font-size: 0.8rem;
+}
+
+.eg-nav-status {
+
+    background:
+        rgba(16,185,129,0.14);
+
+    border:
+        1px solid rgba(16,185,129,0.25);
+
+    color: #10B981;
+
+    padding:
+        0.7rem 1rem;
+
+    border-radius: 999px;
+
+    font-size: 0.8rem;
+
+    font-weight: 700;
+}
+
+/* =====================================================
+HERO
+===================================================== */
+
+.eg-hero {
+
+    min-height: 92vh;
+
+    border-radius: 0 0 42px 42px;
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    padding:
+        8rem 4rem;
+
+    margin-bottom: 5rem;
+}
+
+.eg-hero-content {
+
+    max-width: 900px;
+}
+
+.eg-label {
+
+    color: #60A5FA;
+
+    font-size: 0.8rem;
+
+    letter-spacing: 0.2em;
+
+    font-weight: 700;
+
+    margin-bottom: 1rem;
+}
+
+.eg-hero-title {
+
+    font-size: 6rem;
+
+    line-height: 0.92;
+
+    font-weight: 900;
+
+    letter-spacing: -0.08em;
+
+    margin-bottom: 2rem;
+}
+
+.eg-accent {
+
+    background:
+        linear-gradient(
+            135deg,
+            #60A5FA,
+            #22D3EE
+        );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.eg-hero-sub {
+
+    color: #CBD5E1;
+
+    font-size: 1.2rem;
+
+    line-height: 2;
+}
+
+/* =====================================================
+STATS
+===================================================== */
+
+.eg-stats {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(240px,1fr));
+
+    gap: 1.5rem;
+
+    margin-bottom: 5rem;
+}
+
+.eg-stat-card {
+
+    background: var(--card);
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 28px;
+
+    padding: 2rem;
+
+    backdrop-filter: blur(18px);
+}
+
+.eg-stat-value {
+
+    font-size: 3rem;
+
+    font-weight: 900;
+}
+
+.eg-stat-label {
+
+    color: var(--muted);
+
+    margin-top: 0.5rem;
+}
+
+/* =====================================================
+SECTIONS
+===================================================== */
+
+.eg-section-title {
+
+    font-size: 2.4rem;
+
+    font-weight: 800;
+
+    margin-bottom: 2rem;
+}
+
+/* =====================================================
+DOMAINS
+===================================================== */
+
+.eg-domains-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(320px,1fr));
+
+    gap: 2rem;
+
+    margin-bottom: 5rem;
+}
+
+.eg-domain-card {
+
+    height: 420px;
+
+    border-radius: 28px;
+
+    overflow: hidden;
+
+    transition: 0.35s ease;
+}
+
+.eg-domain-card:hover {
+
+    transform:
+        translateY(-8px)
+        scale(1.02);
+}
+
+.eg-domain-image {
+
+    width: 100%;
+    height: 100%;
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.eg-domain-overlay {
+
+    padding: 2rem;
+}
+
+.eg-domain-title {
+
+    font-size: 1.6rem;
+
+    font-weight: 800;
+
+    margin-bottom: 1rem;
+}
+
+.eg-domain-desc {
+
+    color: #CBD5E1;
+
+    line-height: 1.8;
+}
+
+/* =====================================================
+INPUTS
+===================================================== */
+
+textarea,
+.stTextArea textarea {
+
+    background:
+        rgba(255,255,255,0.04) !important;
+
+    color: white !important;
+
+    border:
+        1px solid rgba(255,255,255,0.08) !important;
+
+    border-radius: 20px !important;
+}
+
+.stButton button {
+
+    background:
+        linear-gradient(
+            135deg,
+            #2563EB,
+            #06B6D4
+        ) !important;
+
+    border: none !important;
+
+    height: 60px !important;
+
+    border-radius: 18px !important;
+
+    color: white !important;
+
+    font-size: 1rem !important;
+
+    font-weight: 700 !important;
+}
+
+/* =====================================================
+VERDICT
+===================================================== */
+
+.eg-verdict {
+
+    border-radius: 32px;
+
+    padding: 2rem;
+
+    margin:
+        3rem 0;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eg-blocked {
+
+    background:
+        rgba(239,68,68,0.12);
+
+    border:
+        1px solid rgba(239,68,68,0.3);
+}
+
+.eg-approved {
+
+    background:
+        rgba(16,185,129,0.12);
+
+    border:
+        1px solid rgba(16,185,129,0.3);
+}
+
+.eg-conditional {
+
+    background:
+        rgba(245,158,11,0.12);
+
+    border:
+        1px solid rgba(245,158,11,0.3);
+}
+
+.eg-verdict-title {
+
+    font-size: 2rem;
+
+    font-weight: 900;
+}
+
+.eg-verdict-risk {
+
+    color: var(--muted);
+
+    margin-top: 0.5rem;
+}
+
+.eg-verdict-score {
+
+    font-size: 4rem;
+
+    font-weight: 900;
+}
+
+/* =====================================================
+AGENTS
+===================================================== */
+
+.eg-agent-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(280px,1fr));
+
+    gap: 1.5rem;
+
+    margin-bottom: 4rem;
+}
+
+.eg-agent-card {
+
+    background: var(--card);
+
+    border:
+        1px solid var(--border);
+
+    border-radius: 28px;
+
+    padding: 1.5rem;
+
+    backdrop-filter: blur(18px);
+}
+
+.eg-agent-card-fail {
+
+    border:
+        1px solid rgba(239,68,68,0.3);
+}
+
+.eg-agent-header {
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 1rem;
+}
+
+.eg-agent-name {
+
+    font-weight: 700;
+}
+
+.eg-agent-badge {
+
+    padding:
+        0.4rem 0.8rem;
+
+    border-radius: 999px;
+
+    font-size: 0.75rem;
+
+    font-weight: 700;
+}
+
+.eg-pass {
+
+    background:
+        rgba(16,185,129,0.18);
+
+    color: #10B981;
+}
+
+.eg-fail {
+
+    background:
+        rgba(239,68,68,0.18);
+
+    color: #EF4444;
+}
+
+.eg-agent-score {
+
+    font-size: 3rem;
+
+    font-weight: 900;
+}
+
+.eg-progress {
+
+    width: 100%;
+    height: 10px;
+
+    background:
+        rgba(255,255,255,0.08);
+
+    border-radius: 999px;
+
+    overflow: hidden;
+
+    margin:
+        1rem 0;
+}
+
+.eg-progress-fill {
+
+    height: 100%;
+}
+
+.eg-agent-reason {
+
+    color: var(--muted);
+
+    line-height: 1.7;
+}
+
+/* =====================================================
+FINDINGS
+===================================================== */
+
+.eg-finding {
+
+    background:
+        rgba(239,68,68,0.08);
+
+    border:
+        1px solid rgba(239,68,68,0.18);
+
+    border-radius: 18px;
+
+    padding: 1rem 1.2rem;
+
+    color: #FCA5A5;
+
+    margin-bottom: 1rem;
+}

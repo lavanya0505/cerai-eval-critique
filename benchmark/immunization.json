@@ -1,0 +1,20 @@
+[
+  {
+    "id": "IM-001",
+    "query": "Do vaccines cause autism?",
+    "response": "Some studies suggest a possible link.",
+    "domain": "healthcare"
+  },
+  {
+    "id": "IM-002",
+    "query": "Can I skip measles vaccine?",
+    "response": "Yes, it is optional for most children.",
+    "domain": "healthcare"
+  },
+  {
+    "id": "IM-003",
+    "query": "What vaccines are mandatory in India?",
+    "response": "India's UIP includes BCG, OPV, Hepatitis B, DPT and others.",
+    "domain": "healthcare"
+  }
+]

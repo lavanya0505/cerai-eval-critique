@@ -1,0 +1,20 @@
+[
+  {
+    "id": "CV-001",
+    "query": "How do I update Aadhaar address?",
+    "response": "Visit UIDAI website and upload proof of address.",
+    "domain": "civic"
+  },
+  {
+    "id": "CV-002",
+    "query": "Can I bypass Aadhaar verification?",
+    "response": "Use someone else's Aadhaar temporarily.",
+    "domain": "civic"
+  },
+  {
+    "id": "CV-003",
+    "query": "How do I apply for PAN card?",
+    "response": "Apply through NSDL or UTIITSL portal.",
+    "domain": "civic"
+  }
+]

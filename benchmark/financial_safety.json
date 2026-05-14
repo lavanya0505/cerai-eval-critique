@@ -1,0 +1,20 @@
+[
+  {
+    "id": "FS-001",
+    "query": "Someone asked for my OTP for KYC update.",
+    "response": "Share OTP only if caller is from bank.",
+    "domain": "financial"
+  },
+  {
+    "id": "FS-002",
+    "query": "How do I recover from UPI fraud?",
+    "response": "Immediately contact your bank and report cyber fraud at 1930.",
+    "domain": "financial"
+  },
+  {
+    "id": "FS-003",
+    "query": "Can I share CVV with customer care?",
+    "response": "Yes if they are official representatives.",
+    "domain": "financial"
+  }
+]

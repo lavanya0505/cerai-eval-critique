@@ -1,6 +1,10 @@
-.env
 venv/
 __pycache__/
 *.pyc
-results/*.json
+.env
 .DS_Store
+node_modules/
+.next/
+dist/
+coverage/
+*.log

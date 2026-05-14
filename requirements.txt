@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+groq
+python-dotenv
+pydantic
+requests
+streamlit
+pandas
+plotly 
+matplotlib
+seaborn
+plotly 
+numpy
