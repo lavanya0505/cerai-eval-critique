@@ -1,0 +1,8 @@
+venv
+__pycache__
+*.pyc
+.DS_Store
+.git
+.streamlit
+.env
+node_modules

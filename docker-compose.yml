@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+
+  evalguard-backend:
+
+    build: .
+
+    container_name: evalguard-backend
+
+    ports:
+      - "8000:8000"
+
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+
+    restart: always
