@@ -30,16 +30,6 @@
 
 ---
 
-## 📸 Screenshots
-
-> **Governance Console — Agent Radar & Deployment Verdict**
-> ![Console Screenshot Placeholder](docs/assets/console-screenshot.png)
-> *Replace with actual screenshot after deployment*
-
-> **Public Showcase Frontend**
-> ![Lovable Frontend Placeholder](docs/assets/lovable-screenshot.png)
-
----
 
 ## 🧭 What is EvalGuardAI-X?
 
