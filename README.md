@@ -667,19 +667,19 @@ EvalGuardAI-X is a governance evaluation tool, not a certified medical, legal, o
 
 ## 🗺️ Roadmap
 
-### v1.1 — Q3 2024
+### v1.
 - [ ] Persistent evaluation history with SQLite backend
 - [ ] Export governance reports as PDF
 - [ ] Domain-specific agent weight configuration
 - [ ] Batch evaluation API endpoint
 
-### v1.2 — Q4 2024
+### v1.
 - [ ] HITL escalation workflow integration
 - [ ] Comparative A/B evaluation mode (compare two AI responses)
 - [ ] Webhook support for CI/CD governance gates
 - [ ] Role-based access control for Governance Console
 
-### v2.0 — 2025
+### v2.
 - [ ] Real-time streaming evaluation
 - [ ] Custom agent definition API
 - [ ] Multi-model consensus (GPT-4o + Claude + Gemini voting)
